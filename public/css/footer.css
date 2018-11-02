@@ -1,0 +1,129 @@
+
+#footer{
+    margin-top: 100px;
+}
+.index .footer {
+    position: fixed;
+    /*z-index: 1;*/
+    bottom: 0;
+}
+
+.footer{
+    background-color: #272727;
+    height: 422px;
+    width: 100%;
+    color: #ccc;
+}
+
+.footer .foot_top{
+    width: 1100px;
+    margin: auto;
+    padding: 44px 0 27px 100px;
+}
+
+.about_lenovo, .shop_lenovo, .service_lenovo{
+    width: 210px;
+}
+.footer a{
+    color: #ccc;
+}
+.foot_top li>a{
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 12px;
+}
+.foot_top_title{
+    font-size: 16px!important;
+    line-height: 16px!important;
+    margin-bottom: 18px!important;
+    font-weight: 600!important;
+}
+.lenovo_website_group{
+    width: 240px;
+}
+
+.social_platform{
+    width: 230px;
+}
+.social_plat li {
+    margin: 6px 7px 6px 4px;
+}
+.social_platform li a:hover{
+    transform: rotate(360deg);
+}
+.social_platform li a{
+    transition: all 0.3s;
+}
+.social-icon:hover .dark{
+     display: none;
+}
+.social-icon:hover .light{
+    display:block;
+}
+.social_plat .dark,.social_plat .light{
+    width: 37px;
+    height: 36px;
+}
+.darkwchat {
+
+    background: url("../img/footer-img1.png") -8px -190px;
+}
+.lightwchat{
+    display: none;
+
+    background: url("../img/footer-img1.png") -8px -238px;
+}
+
+.darkqqzone {
+
+    background:url("../img/footer-img1.png") -63px -190px;
+}
+
+.lightqqzone {
+    display: none;
+   background:url("../img/footer-img1.png") -63px -238px;
+}
+.darkweibo {
+
+    background:url("../img/footer-img1.png") -119px -190px;
+}
+.lightweibo {
+
+    display: none;
+
+    background:url("../img/footer-img1.png") -119px -238px;
+}
+.dark_fun_icon {
+
+    background:url("../img/footer-img1.png") -176px -190px;
+}
+.light_fun_icon {
+
+    display: none;
+
+    background:url("../img/footer-img1.png") -176px -238px;
+}
+
+.select_country {
+    margin: 60px 0 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ccc;
+}
+
+#cn_img {
+    width: 186px;
+    height: 24px;
+   background: url("../img/footrest-search.jpg");
+}
+
+.foot_bot {
+    border-top: 1px solid #424141;
+}
+.foot_bot_con {
+    width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 46px;
+}

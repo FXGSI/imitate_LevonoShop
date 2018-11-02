@@ -1,0 +1,49 @@
+<!--登录遮罩   登录框-->
+<div id="ppMask" class="ppMask" style="display: none;"></div>
+<div class="loginWrapper" id="loginWrapper" style="display: none">
+    <a href="javascript:void(0)" class="close" id="logo_close"></a>
+    <div class="login_inner">
+        <div class="login_title">联想会员登录</div>
+        <div id="normal_login_box" class="login-content">
+            <div class="login_input login_inputa">
+                <input type="text" id="login_uname" placeholder="邮箱/手机号码" class="account" name="uname" value="dangdang">
+                <i class="icon-clear"></i>
+            </div>
+
+            <div class="login_input login_inputb">
+                <input type="text" id="login_upwd" placeholder="密码" class="account" name="upwd" value="123456">
+                <i class="icon-clear"></i>
+            </div>
+        </div>
+
+        <div class="error-container" id="login_error" style="display: none;"><i class="icon-error"></i><p class="error-msg" id="login_errMsg">用户名错误</p></div>
+
+
+
+        <!--登录按钮-->
+        <div class="login_mains"> <input class="persistent" checked="" type="checkbox" latag="latag_pc_login_autologin" id="psAuto"> <label for="psAuto">自动登录</label></div>
+        <input type="button" id="login_in" onfocus="this.blur(); " class="submit" value="登录">
+
+        <!--注册-->
+        <div class="login_mains clearfix"><a href="javascript:;" class="login_type login_fast" latag="latag_pc_login_quick" type="1" style="display: block;">手机验证码快捷登录</a><a href="javascript:;" class="login_type login_account" latag="latag_pc_login_normal" type="0" style="display: none;">用户名密码登录</a><div class="login_others"><a href="javascript:;" class="regist_btn" latag="latag_pc_login_register">立即注册</a><a href="javascript:;" class="reset_btn" latag="latag_pc_login_forgetpw">忘记密码？</a></div></div>
+
+        <div class="cooperation">
+            <div class="cooperation-title"><span></span> <em>其他登录方式</em><span></span>
+            </div>
+            <div class="cooperation_items clearfix">
+                <a href="#" latag="latag_pc_login_qq" class="qq"><i class="icon-type icon-qq"></i></a>
+                <a href="#" latag="latag_pc_login_weibo" class="wb"><i class="icon-type icon-wb"></i></a>
+                <a href="#" latag="latag_pc_login_weixin" class="wx"><i class="icon-type icon-wx"></i></a>
+                <a href="#" latag="latag_pc_login_zhifubao" class="zfb"><i class="icon-type icon-zfb"></i></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</div>

@@ -1,0 +1,380 @@
+
+
+
+
+/*detail*/
+.detail {
+    position: relative;
+}
+.detail .nav{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #e8e8e8;
+}
+.detail .nav .nav_con {
+    width: 1200px;
+
+    margin-left: 84px;
+    font-size: 12px;
+    color: #535353;
+}
+
+.detail_main {
+    position: relative;
+    width: 1200px;
+    margin: 60px auto 0;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.detail_main .con_left {
+    position: relative;
+    width: 618px;
+    float: left;
+}
+
+.detail_main .con_right {
+    width: 580px;
+    float: right;
+    color: #000000;
+    height: 900px;
+
+}
+
+.play-picture a.left-button, .play-picture a.right-button {
+    position: absolute;
+    top: 26px;
+    width: 20px;
+    height: 30px;
+    background: url(../img/pro_detail/detail_old.png)  no-repeat;
+
+}
+
+
+.detail_main .con_left .pic {
+    width: 520px;
+    height: 520px;
+}
+
+.play-picture {
+    position: relative;
+    overflow: hidden;
+    width: 535px;
+
+    margin-top: 20px;
+}
+
+.play-picture a.left-button {
+    left: 0;
+    background-position: -8px -8px;
+}
+.play-picture a.right-button {
+    right: 0;
+    background-position: -40px -8px;
+}
+.play-picture>a.disabled{
+    opacity: 0.3;
+}
+
+.play-picture #detail_playPicture_list {
+    height: 88px;
+    width: 495px;
+    margin-left: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.play-picture #detail_playPicture_list ul {
+    width: 10000px;
+    height: 88px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s .2s all ease;
+}
+
+.play-picture #detail_playPicture_list ul li {
+    float: left;
+    width: 86px;
+    height: 86px;
+    display: block;
+    margin-left: 10px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.play-picture #detail_playPicture_list ul li.checked {
+    border-color: #b5b5b5;
+}
+
+/*视频*/
+#showVideoBtn {
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/pro_detail/showVideo.png);
+    background-size: 60px;
+    left: -60px;
+    top: -180px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    z-index: 100;
+}
+.mvideo{
+    position: relative;
+    height: 520px;
+    width: 520px;
+}
+
+
+
+
+
+.detail_main .con_right .title {
+    font-size: 30px;
+    font-weight: normal;
+}
+.detail_main .con_right .dec {
+    font-size: 14px;
+    margin-top: 17px;
+    line-height: 22px;
+    border-bottom: #dcdcdc solid 1px;
+    padding-bottom: 12px;
+}
+.detail .container .container-title {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.detail_main .con_right .sales_con {
+    font-size: 14px;
+    margin: 10px auto;
+    color: #e2231a;
+}
+
+.guige {
+    font-size: 18px;
+}
+
+.guige li {
+    list-style-type: none;
+    position: relative;
+    margin-top: 34px;
+}
+.guige li label {
+    height: 24px;
+    position: absolute;
+    font-size: 18px;
+    top: -32px;
+    left: 0;
+}
+.guige li span.active {
+    border: solid 1px red;
+}
+.guige li span {
+    width: 258px;
+    height: 53px;
+    overflow: hidden;
+    line-height: 53px;
+    font-size: 14px;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 1px solid #c9c9c9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.guige li i {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+
+#container_info {
+
+    margin: 0 auto 30px auto;
+    position: relative;
+}
+
+#container_info .ul-box {
+    width: 1200px;
+    padding: 0;
+    margin: 0 auto 10px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+}
+#container_info .ul-box li.checked {
+    color: #e2231a;
+}
+
+#container_info .ul-box li {
+    float: left;
+    padding-right: 40px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#container_info #box_information img {
+    display: block;
+    box-sizing: border-box;
+    width: 1920px;
+     position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+
+
+.detail .detail_bottom {
+    background: #e8e8e8;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.detail .detail_bottom .detail_con {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+}
+.detail .detail_bottom #ewm_icon {
+    float: left;
+    display: inline-block;
+    height: 80px;
+    width: 73px;
+    background: url("../img/pro_detail/ewm_icon.jpg") no-repeat;
+}
+.detail .detail_bottom #btn_gmzx {
+    width: 74px;
+    float: left;
+    display: inline-block;
+    height: 80px;
+    background: url("../img/pro_detail/goumaizixun.jpg") no-repeat;
+}
+
+.detail .detail_bottom #btn_gmzx a#a_gmzx {
+    display: block;
+    height: 80px;
+}
+
+.detail .detail_bottom .operate {
+    float: left;
+    margin-left: 33px;
+}
+
+.detail .bg {
+    background-image: url(../img/pro_detail/new_detail.png);
+    display: inline-block;
+}
+
+.detail .detail_bottom .operate_div1 {
+    margin-top: 10px;
+}
+
+
+.detail .detail_bottom .change_bg {
+
+    width: 22px;
+    height: 17px;
+    float: left;
+    margin-right: 9px;
+    background: url(../img/pro_detail/new_detail.png) -8px -121px;
+    display: inline-block;
+}
+
+.detail .detail_bottom .operate_right {
+    float: right;
+    height: 80px;
+    line-height: 80px;
+}
+
+span#span_stock_dec {
+    margin-right: 5px;
+    float: left;
+}
+.detail .detail_bottom .reduce {
+    background-position: -56px -33px;
+    width: 25px;
+    height: 26px;
+    margin: 27px 0 0 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.detail .detail_bottom .txt {
+    width: 38px;
+    height: 22px;
+    border: #9d9d9d solid 1px;
+    background: white;
+    float: left;
+    margin-top: 27px;
+    text-align: center;
+
+}
+.detail .detail_bottom .add {
+    background-position: -82px -33px;
+    width: 25px;
+    height: 26px;
+    float: left;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.detail .detail_bottom .operate_money {
+    font-size: 24px;
+    color: #e2231a;
+    margin-left: 16px;
+    float: left;
+}
+.detail .detail_bottom .operate_right .operate_money #price_des {
+    font-size: 16px;
+    font-weight: 700;
+    float: left;
+}
+.detail .detail_bottom .operate_right .operate_money #span_price{
+      float: left;
+}
+.detail .detail_bottom #div_button_group {
+    float: left;
+    margin-top: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+.detail .button {
+    display: inline-block;
+    min-width: 100px;
+    height: 40px;
+    background: #e2231a;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 20px;
+    float: left;
+}
+.detail .detail_bottom .button-add {
+    background: #fff;
+    border: 1px solid #e2231a;
+    font-size: 16px;
+    color: #000;
+}

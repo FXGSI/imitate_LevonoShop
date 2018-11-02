@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品列表</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/products.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/search.js"></script>
+
+</head>
+<body>
+
+<!--登录遮罩   登录框-->
+<div id="login"></div>
+
+
+   <header id="proHeader"></header>
+
+     <div class="tab-search clearfix">
+   <div class="tap_list">
+       <ul>
+           <li class="active home"><a href="javascript://;" data-url="index.html" data-param="">个人&amp;家庭产品</a></li>
+           <li class="sep">|</li>
+           <li><a href="javascript://;" data-url="search_business.html" data-param="">商用产品&amp;解决方案</a></li>
+           <li class="sep">|</li>
+           <li class="phone"><a href="javascript://;" data-url="index.html" data-param="&amp;destination=3">手机&amp;周边产品</a></li>
+       </ul>
+       <div class="clear"></div>
+   </div>
+
+     </div>
+
+    <div class="search_main clearfix">
+       <div class="search_filter" id="search_filter">
+           <div class="filter_content">
+               <div class="search_result">
+               <div class="search_result_left">
+                   <a href="javascript://;" id="search_all_btn">全部结果</a>
+                   <span class="search_result_nav" id="search_result_nav" style="color: black">&gt;</span>
+               </div>
+               <div class="search_result_right">
+                   "共"
+                   <span id="searchProCount" class="searchResultCountColor searchCount">135</span>
+                   款产品
+               </div>
+               </div>
+
+               <div class="tab_body">
+                   <div class="le_sel tab_list">
+                       <ul>
+                           <li class="clearfix"><div class="le_sel_con1" data-name="笔记本" data-type="-1">笔记本：</div> <div class="le_sel_con2"><a href="javascript:;"  class="le_clickone le_clickmore le_clickprice" data-name="Lenovo" data-value="294"><span class="searchicon"></span>Lenovo</a>
+                              <a href="javascript:;"  class="le_clickone le_clickmore le_clickprice"><span class="searchicon"></span>thinkpad</a></div></li>
+                           <li class="clearfix"><div class="le_sel_con1" data-name="CPU型号" data-type="1067">CPU型号：</div><div class="le_sel_con2"><a href="javascript:;"  class="le_clickone le_clickmore le_clickprice" data-name="Lenovo" data-value="294"><span class="searchicon"></span>intel i5</a>
+                               <a href="javascript:;"  class="le_clickone le_clickmore le_clickprice"><span class="searchicon"></span>intel i6</a><a href="javascript:;"  class="le_clickone le_clickmore le_clickprice"><span class="searchicon"></span>intel i7</a></div></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+
+  <!--搜索产品列表-->
+        <div class="search_resultpart clearfix">
+            <div class="resultpart_content">
+                <div class="search_pro">
+                    <div class="search_pro_con">
+                        <ul id="plist">
+                            <!--<li>-->
+                                <!--<a href="javascript://;"  class="search_pro_img pro_item_href" ><img style="cursor: pointer;" target="_blank" src="//p1.lefile.cn/product/adminweb/2018/10/22/y6vpROgxGJkpC5r63heIrBBQA-3012.w160xh160.jpg"  alt=""></a>-->
+                                <!--<div class="search_pro_price"  >￥1798.00</div>-->
+                                <!--<div class="search_pro_name">-->
+                                <!--<a href="product_details.html?lid=1" class="ro_item_href" title="Apple MacBook Air 13.3英寸笔记本 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)">Apple MacBook Air 13.3英寸笔记本 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A)</a></div>-->
+                                <!--<div class="icons_mark"><i class="sirendingzhi" title="私人定制"></i><i class="fenqifukuan" title="分期付款"></i><span class="youhuiquan">优惠券</span></div>-->
+
+                            <!--</li>-->
+                 </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--页码-->
+        <div class="pager" id="pager"><a href="javascript://" class="prevpage isabled ">&lt;</a>
+            <!--<a href="javascript://" class="despage activity" data-value="1">1</a><a href="javascript://" class="despage " data-value="2">2</a><a href="javascript://" class="despage" data-value="3">3</a><a href="javascript://" class="despage" data-value="4">4</a><a href="javascript://" class="despage" data-value="5">5</a>-->
+            <a href="javascript://" class="nextpage isabled">&gt;</a></div>
+        <!--底部-->
+
+
+  <div class="shop_footer">
+        <div class="ns_w">
+            <img width="1200" height="83" src="//p3.lefile.cn/product/adminweb/2016/04/25/8518047e-a59d-4123-ad1f-4a68391ec161.jpg" _src="//p3.lefile.cn/product/adminweb/2016/04/25/8518047e-a59d-4123-ad1f-4a68391ec161.jpg" class="lazy_img">
+
+        </div>
+  </div>
+
+ </div>
+
+
+   <footer id="footer" ></footer>
+</body>
+
+<script src="js/proHeader.js"></script>
+<script src="js/products.js"></script>
+
+<script src="js/footer.js"></script>
+</html>

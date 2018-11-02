@@ -1,0 +1,225 @@
+
+
+.tab-search {
+    border-bottom: 1px solid #cfcfcf;
+
+}
+.tab-search .tap_list {
+    width: 1200px;
+    margin: 0 auto;
+}
+.tab-search .tap_list ul {
+
+    padding: 0;
+    margin-left: 8px;
+}
+.tab-search .tap_list ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.tab-search .tap_list ul li.active {
+    border-bottom: 1px solid #000000;
+}
+
+.tab-search .tap_list ul li a {
+    text-decoration: none;
+    color: #606060;
+}
+.tab-search .tap_list ul li.active a {
+    color: #383838;
+}
+.tab-search .tap_list ul li.sep {
+    margin: 0px 20px;
+    color: #959595;
+}
+
+.search_main .search_filter .filter_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.search_result {
+    height: 48px;
+    line-height: 48px;
+    background: #FBFBFB;
+
+    color: #000;
+    padding: 0 22px 0 8px;
+    border-bottom: 1px solid gainsboro;
+    font-family: arial,"å¾®è½¯é›…é»‘",sans-serif;
+    font-size: 12px;
+}
+
+ .search_result_left {
+    float: left;
+}
+.search_result_right {
+    float: right;
+}
+.searchResultCountColor {
+    color: red;
+}
+.search_main .tab_body {
+    padding-bottom: 30px;
+    margin-top: -1px;
+}
+.search_main .tab_list {
+    position: relative;
+
+}
+.le_sel li {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 8px 0;
+}
+.le_sel .le_sel_line1 {
+    padding: 11px 0 0 0;
+    background: #f3f3f3;
+    border-top: 0;
+}
+.le_sel li .le_sel_con1 {
+    float: left;
+    width: 93px;
+    padding-left: 8px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 6px;
+    color: #000000;
+    font-weight: bold;
+}
+.le_sel li .le_sel_con2 {
+    float: left;
+    line-height: 26px;
+    width: 1011px;
+}
+.le_sel li .le_clickone {
+    display: block;
+    padding-right: 48px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    color: #737373;
+}
+
+/*搜索产品列表*/
+
+.search_main .search_resultpart {
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+}
+.search_main  .search_resultpart .resultpart_content {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.search_pro li {
+    float: left;
+    width: 250px;
+    padding: 10px 20px 22px 20px;
+    height: 350px;
+    position: relative;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.search_pro .search_pro_img {
+    display: block;
+    text-align: center;
+    height: 160px;
+    width: 250px;
+    overflow: hidden;
+}
+.search_pro .search_pro_img img{
+
+    text-align: center;
+
+    width: 170px;
+    overflow: hidden;
+}
+.search_pro .search_pro_name {
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.search_pro .search_pro_name a {
+    color: #424242;
+}
+.search_pro .search_pro_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d2d2d;
+    height: 30px;
+    line-height: 30px;
+}
+/*图标*/
+.search_pro .icons_mark {
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    height: 25px;
+}
+.search_pro .icons_mark i.sirendingzhi {
+    background-position: 82px top;
+}
+.search_pro .icons_mark i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/products/icons_03.png);
+    margin-left: 5px;
+}
+.search_pro .icons_mark span {
+    float: right;
+    margin-right: 5px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 6px;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 4px;
+    background-color: #40c412;
+}
+
+/*页码*/
+.pager {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+.pager a {
+    padding: 6px 15px;
+    display: inline-block;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    color: #636363;
+    margin-left: 3px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.pager a.activity {
+    border: 1px solid #a4a29d;
+    color: #504b4b;
+}
+/*底部*/
+
+.shop_footer{
+
+    background: #f5f5f5;
+    height: 83px;
+}
+
+ .ns_w {
+    width: 1200px;
+    margin: 0 auto;
+    height: 83px;
+}

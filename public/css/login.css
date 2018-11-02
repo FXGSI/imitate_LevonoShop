@@ -1,0 +1,202 @@
+/*遮罩 登录框*/
+.ppMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000099;
+    background: #000;
+    opacity: .3;
+}
+.loginWrapper{
+
+    position: fixed;
+    width: 330px;
+    height: auto;
+    padding: 0 125px;
+    left: 50%;
+    top: 90px;
+    margin-left: -290px;
+    z-index: 10000100;
+    background: #fff;
+
+
+}
+.loginWrapper .close {
+    position: absolute;
+    right: -66px;
+    top: -28px;
+    z-index: 111111;
+    width: 50px;
+    height: 50px;
+    background: url(../img/title/icon-close.png) center no-repeat;
+}
+.loginWrapper .login_title {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.loginWrapper .login-content {
+    margin-top: 38px;
+}
+.loginWrapper .login_input{
+    width: 100%;
+    margin-bottom: 14px;
+    position: relative;
+
+}
+.loginWrapper .login_input input {
+    width: 258px;
+    border: 1px solid #d6d6d6;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.loginWrapper .login_input .icon-clear {
+    position: absolute;
+    right: 14px;
+    top: 17px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/title/icon-delete.png) center no-repeat;
+    cursor: pointer;
+    /*display: none;*/
+}
+/*提示框*/
+.loginWrapper .error-container {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #ef1c22;
+    /*display: none;*/
+}
+.loginWrapper .error-container i {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 5px;
+    background: url(../img/title/err.png) center no-repeat;
+    background-size: cover;
+}
+.loginWrapper .login_inner .login_mains {
+    margin: 16px 0;
+}
+
+.loginWrapper .login_mains input {
+    float: left;
+    margin-right: 5px;
+}
+
+.loginWrapper .submit {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 330px;
+    background-color: #e22319;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0 0;
+    border: none;
+}
+.loginWrapper .submit:hover {
+    background-color: #EF3229;
+}
+
+/*登录方式*/
+
+.loginWrapper .login_mains .login_type {
+    float: left;
+    color: #ef1c22;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+.loginWrapper .login_mains .login_others {
+    float: right;
+
+}
+
+.loginWrapper .login_mains div a {
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+    color: #757575;
+}
+.loginWrapper .login_mains div .regist_btn {
+    border-right: 1px solid #a4a3a3;
+    padding-right: 5px;
+
+}
+
+
+.loginWrapper .login_mains div .reset_btn {
+
+    padding-left: 5px;
+}
+
+/*合作登录*/
+.loginWrapper .cooperation {
+    width: 330px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.loginWrapper .cooperation-title{
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 14px;
+    height: 14px;
+}
+.loginWrapper .cooperation-title span {
+    width: 123px;
+    height: 1px;
+    background-color: #a4a3a3;
+    float: left;
+    margin-top: 6px;
+}
+.loginWrapper .cooperation-title em {
+    font-style: normal;
+    float: left;
+}
+.loginWrapper .cooperation_items {
+    margin-top: 15px;
+    padding: 0 60px;
+}
+.loginWrapper .cooperation_items a {
+    float: left;
+    margin-left: 28px;
+}
+
+.loginWrapper .cooperation_items a .icon-type {
+    display: block;
+    margin: 0 auto;
+}
+.loginWrapper .cooperation_items a i {
+    width: 31px;
+    height: 31px;
+
+}
+.loginWrapper .cooperation_items a:first-child {
+    margin-left: 0;
+    background: 0 0;
+}
+.loginWrapper .cooperation_items a .icon-qq {
+    background: url(../img/title/qq.png) center no-repeat;
+}
+.loginWrapper .cooperation_items a .icon-wb {
+    background: url(../img/title/weibo.png) center no-repeat;
+}
+.loginWrapper .cooperation_items a .icon-wx {
+    background: url(../img/title/weixin.png) center no-repeat;
+}
+.loginWrapper .cooperation_items a .icon-zfb {
+    background: url(../img/title/zhifubao.png) center no-repeat;
+}
+/*登录框结束*/

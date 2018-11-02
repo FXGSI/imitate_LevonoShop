@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品详情</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/product_details.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/product_details.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/proHeader.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/search.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+
+
+<!--登录遮罩   登录框-->
+<div id="loginMask"></div>
+
+
+  <header id="proHeader"></header>
+               <!--detail-->
+           <div class="detail">
+               <div class="nav">
+                   <div class="nav_con">
+                       <a href="index.html">首页 </a>&gt; 商品详情 &gt; <span id="nav_con_tit"> </span>
+
+                   </div>
+               </div>
+             <div class="clearfix detail_main" id="detail_main">
+
+        <div class="con_left" id="detail_left">
+
+             <div class="mvideo" style="display: none">
+                 <video id="my-video_html5_api" class="vjs-tech" preload="auto" style="height: 520px;width: 520px; background: black" tabindex="-1" src="img/pro_detail/1528277554.mp4" muted="muted" autoplay controls>
+                     <p class="vjs-no-js">
+                         Your browser is not supported, please update your browser
+                     </p>
+                 </video>
+
+
+<div class="closevedio" style="
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    right: 12px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 200;
+    color: #666;">x</div>
+             </div>
+
+
+
+            <img id="winpic"  class="pic">
+
+            <div class="play-picture" id="detail_playPicture" >
+                <a class="left-button disabled" id="play_picture_leftbtn" display="disabled"></a>
+                <a class="right-button" id="play_picture_rightbtn"></a>
+
+                <div class="list" id="detail_playPicture_list">
+                    <ul>
+
+                        <!--<li data-index="2" class="">-->
+                            <!--<a href="javascript:;">-->
+                                <!--<img src="img/pro_detail/small/opNcfbt1FbsGJZInwm1hKu7FO-0225.w84.jpg" data-md="img/pro_detail/middle/middle6.jpg" alt="联想K5 Note 极地黑 4GB+64GB图片">-->
+                            <!--</a>-->
+                        <!--</li>-->
+
+                    </ul>
+                </div>
+             </div>
+
+               <!--播放按钮-->
+            <span id="showVideoBtn" style="display: inline;"></span>
+
+        </div>
+
+
+
+
+
+       <div class="con_right" id="detail_right">
+              <h1 title="" class="title" id="span_product_name">小新 Air 14 14.0英寸超轻薄笔记本 湖光蓝</h1>
+                  <div class="dec" id="div_product_dec">i5-8250U/Windows 10 家庭中文版/14.0英寸/8G/256G SSD/GeForce MX150 2G独显/湖光蓝</div>
+
+           <div class="container" id="container_cuxiao">
+               <div class="container-title">促销信息</div>
+               <div class="box sales_con" id="div_promotion"><div id="pc_promotion"><p><span style="color:red">【私人定制】选择私人定制服务，将在下单后7个工作日后陆续发货！图库陆续更新中~</span></p><p><a href="https://srv.lenovo.com.cn/chat/index.do?sd=1&amp;pt=4&amp;gc=1002043&amp;gd=1&amp;hint=" target="blank"><span style="color:red">【购机福利】咨询客服享优惠，立即咨询。</span></a></p><p><a href="https://item.lenovo.com.cn/product/1002270.html" target="_blank"><span style="color:red">【爆款推荐】可调、可折叠全铝散热支架，呵护颈椎、呵护本本，低至149元！点击抢购！</span></a></p></div></div>
+           </div>
+
+             <!--规格-->
+           <div class="container" id="container_guige">
+               <ul id="guige" class="guige"><li id="guigeitem0" class="clearfix">
+                   <label>颜色/尺寸:</label><span title="湖光蓝/14.0英寸" class="spec-mid active"><i>湖光蓝/14.0英寸</i></span>
+                   <span title="灰色/14.0英寸" class="spec-mid"><i>灰色/14.0英寸</i></span>
+                   <span title="金色/14.0英寸" class="spec-mid"><i>金色/14.0英寸</i></span>
+                   <span title="黑色/14.0英寸" class="spec-mid"><i>黑色/14.0英寸</i></span>
+                   <span title="灰色/15.6英寸" class="spec-mid"><i>灰色/15.6英寸</i></span>
+                   <span title="金色/15.6英寸" class="spec-mid"><i>金色/15.6英寸</i></span>
+                   <span title="黑色/15.6英寸" class="spec-mid"><i>黑色/15.6英寸</i></span></li>
+                   <li id="guigeitem1" class="clearfix"><label>处理器/操作系统:</label><span title="i5-8250U/Windows 10 家庭中文版" class="spec-mid active"><i>i5-8250U/Windows 10 家庭中文版</i></span><span title="i7-8550U/Windows 10 家庭中文版" class="spec-mid"><i>i7-8550U/Windows 10 家庭中文版</i></span><span title="AMD Ryzen 5 2500U/Windows 10 家庭中文版" class="spec-mid"><i>AMD Ryzen 5 2500U/Windows 10 家庭中文版</i></span></li><li id="guigeitem2" class="clearfix"><label>内存/硬盘/显卡:</label><span title="8G/256G PCle SSD/满血版MX150" class="spec-mid active"><i>8G/256G PCle SSD/满血版MX150</i></span><span title="8G/256G PCle SSD/集成显卡" class="spec-mid"><i>8G/256G PCle SSD/集成显卡</i></span><span title="8G/512G PCle SSD/满血版MX150" class="spec-mid"><i>8G/512G PCle SSD/满血版MX150</i></span><span title="4G/256G SSD/集成显卡" class="spec-mid"><i>4G/256G SSD/集成显卡</i></span></li></ul></div>
+
+
+
+       </div>
+             </div>
+
+
+   <!--商品详情-->
+
+      <div id="container_info" class="clearfix">
+          <ul class="ul-box">
+              <li class="checked" data-index="0">商品详情</li>
+              <li data-index="1">配置信息</li>
+              <li data-index="2" >商品评价</li>
+              <li data-index="3" >服务支持</li>
+
+          </ul>
+
+            <div class="info-box" id="box_information" style="display: block">
+                <a href="#" id="bannerUrl">
+                    <img id="bannerImg" src="img/pro_detail/banner.jpg" alt="图片标语">
+                </a>
+
+                <div class="images">
+                    <p>
+                        <img src="img/pro_detail/made.jpg" >
+                        <img src="img/pro_detail/statement-pc.jpg" >
+                        <img src="img/pro_detail/z2xDx7Q33d9GGxqLVkcxoaUj2-7105.jpg" >
+                        <img src="img/pro_detail/ehOHdyKDQySNEi6MiN9ZjiILX-3714.jpg" >
+                        <img src="img/pro_detail/6owXSWadh8cGCkJAqpHsszkXT-4236.jpg" >
+                        <img src="img/pro_detail/ST0iDT3AJcewttbMfTszUwGKX-7785.jpg" >
+                        <img src="img/pro_detail/mz3iKTGvitpZTQvbpLXfX1yeJ-0706.jpg" >
+                    </p>
+                    <p><img src="img/pro_detail/pcmianzeshengming.jpg" alt=""></p>
+
+
+                </div>
+
+
+
+            </div>
+      </div>
+
+
+
+<!--底部购物栏-->
+
+               <div class="detail_bottom" id="container_buygroup">
+                   <div class="detail_con clearfix">
+                       <div id="ewm_icon" class="ewm-icon"></div>
+                       <div id="btn_gmzx"><a id="a_gmzx" href="#" target="_blank"></a></div>
+                       <div id="operate_change" class="operate" style="margin-top: 15px;">
+                           <div class="operate_div1">&nbsp;</div>
+                           <div class="operate_div1"><span class="bg change_bg"></span><span><a target="_blank" href="#">支持多种产品以旧换新，得代金券和额外补贴</a></span></div>
+                       </div>
+                       <!--右侧按钮-->
+                    <div class="operate_right">
+                     <span class="operate_stock" id="span_stock_dec">有库存</span>
+                        <span class="bg reduce" id="reduce_buy_number"></span>
+                        <input type="text" class="txt" id="buy_number" value="1">
+                        <span class="bg add" id="add_buy_number"></span>
+
+
+                        <div class="operate_money">
+                            <span id="price_des">会员价：</span>
+
+                            <span id="span_price">4599.00</span>
+
+                            <div id="div_button_group">
+                                <a  class="button button-pay" id="ljgm" title="立即购买">立即购买</a>
+                                <button  class="button button-add" id="jrgwc" style="display: block;"  >加入购物车</button>
+                            </div>
+
+                    </div>
+
+                   </div>
+
+               </div>
+
+</div>
+           </div>
+
+       <!--footer-->
+       <footer id="footer" class="footer"></footer>
+
+
+
+
+</body>
+</html>

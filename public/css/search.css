@@ -1,0 +1,170 @@
+/*搜索框*/
+.header-main .search{
+    position: absolute;
+    right: 219px;
+    top: 20px;
+
+}
+.search_box .search_input_bg {
+    width: 270px;
+    height: 36px;
+    background-color: #eee;
+    border-radius: 30px;
+    position: absolute;
+    top: -3px;
+    z-index: 0;
+    left: -210px;
+    opacity: .35;
+
+}
+a.search_box_img {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: -55px;
+    top: 1px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.search_box .search_box_img span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-image: url(../img/title/search_btn_03.png);
+    background-repeat: no-repeat;
+}
+
+.search_box input {
+    width: 220px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    position: absolute;
+    left: -205px;
+    top: -2px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+    z-index: 1;
+}
+.search_box input::-webkit-input-placeholder{
+    color:#fff;
+}
+.search_box input:focus{
+    outline: none;
+}
+
+.search_box input.flow {
+    color: #383838!important;
+}
+.search_box input.flow::-webkit-input-placeholder {
+    color: #ddd!important;
+}
+
+/*登录注册*/
+.top_login_r{
+    width: 78px;
+    position: relative;
+    float: right;
+    top: 16px;
+}
+.top_login_title {
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.home_cart {
+    width: 26px;
+    height: 19px;
+
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+.top_login_title span{
+    font-size: 11px;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    line-height: 18px;
+    padding-left: 2px;
+    top: 0;
+    text-align: center;
+}
+.top_login{
+    float: right;
+    margin-top: 18px;
+}
+.top_login .login {
+    background: url(https://p3.lefile.cn/product/adminweb/2018/04/20/502099f0-006a-4b38-89d8-746ca520f076.png) no-repeat;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.top_login .top_login_ing {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.top_login.top_user{
+    position: relative;
+}
+.top_user ul {
+    width: 130px;
+    display: none;
+
+    border: 1px solid #d3d3d3;
+    position: absolute;
+    left: -55px !important;
+    background-color: #fff;
+    padding: 10px 5px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+
+
+}
+.top_login.top_user:hover ul{
+    display: block;
+
+}
+.top_user ul li {
+    color: #585757;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+}
+
+.top_user ul li:hover{
+    color: #000000;
+}
+
+.top_user li span.top_msg_count {
+    font-size: 11px;
+    position: absolute;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    line-height: 18px;
+    top: 3px;
+    color: red;
+}
+
+
