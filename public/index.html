@@ -339,8 +339,73 @@
 
 
    <script>
-         $(function () {
+    $(function () {
 
+      var len = $("#neck-warp>ul>li").length;
+           // console.log(len);
+          var cur=0;
+
+            $("#neck_index").append('<ul class="neckFocustab" id="focusTab"></ul>');
+            for(var i=0;i<len;i++)
+                $("#focusTab").append('<li></li>');
+              var $li=$('#neck-warp>.neckFocusimg>li')
+            
+         //显示第一张图片
+         $li.eq(0).show();
+         //向右切换
+       var i=0;
+        var play=function(){
+         i++;
+    //判断小圆点是否越界
+    i=i>len-1?0:i;
+    $li.eq(i).fadeIn(600).siblings().fadeOut(600);
+    //小圆点跟随切换
+    $(".neckFocustab li").eq(i).addClass('active').siblings().removeClass('active');
+}
+//自动轮播
+var timer=setInterval(play,1500);
+//鼠标悬浮暂停轮播，移出继续
+$('#neck_index').mouseover(
+    function(){
+        clearInterval(timer);
+    }
+);
+    $('#neck-warp').mouseout(
+        function(){
+            timer=setInterval(play,1500);
+        }
+    );
+    //箭头功能
+//向右
+$('#neckBtn_r').click(
+        function(){
+            play();
+        }
+    );
+//向左
+    var moveLeft=function(){
+        i--;
+        i=i<0?len-1:i;
+        $li.eq(i).fadeIn(600).siblings().fadeOut(600);
+        //小圆点跟随切换
+        $(".neckFocustab li").eq(i).addClass('active').siblings().removeClass('active');
+    }
+    $('#neckBtn_l').click(
+        function(){
+            moveLeft();
+        }
+    );
+    
+//小圆点跟随切换
+$('.neckFocustab li').hover(function(e){
+    $target=$(e.target).index();
+    //console.log($target);
+    i=$target;
+    $li.eq(i).fadeIn(600).siblings().fadeOut(600);
+    $('.neckFocustab li').eq(i).addClass('active').siblings().removeClass('active');
+});
+
+/* 
          var timer=null;
          var len = $("#neck-warp>ul>li").length;
            // console.log(len);
@@ -363,7 +428,7 @@
                  clearInterval(timer);
                   cur=$(this).index();
                   $(this).addClass("active").siblings().removeClass("active");
-                  $("#neck-warp ul li").eq(cur).fadeIn(300).siblings("li").fadeOut(300);
+                  $("#neck-warp ul li").eq(cur).fadeIn(600).siblings("li").fadeOut(600);
              });
 
           //定义图片切换函数
@@ -372,24 +437,20 @@
 
              showImg();
              //点击切换
-
-             $("#neckBtn_l").click(function () {
-                cur=cur-1;
-
-                 cur=cur<0?len-1:cur;
+           $("#neckBtn_l").click(function () {
+                cur--;
+              cur=cur<0?len-1:cur;
                  goImg();
              });
 
          $("#neckBtn_r").click(function () {
-             cur=cur+1;
-
-          cur=cur>len-1?0:cur;
+              cur=cur>len-1?0:cur;
              goImg();
 
          });
 
             function goImg(){
-               $("#neck-warp ul li").eq(cur-1).fadeIn(300).siblings("li").fadeOut(300);
+               $("#neck-warp ul li").eq(cur-1).fadeIn(600).siblings("li").fadeOut(600);
                 $(".neckFocustab li ").eq( cur-1 ).addClass("active").siblings().removeClass("active");
 
             }
@@ -407,7 +468,7 @@
                      goImg()},2500);
 
            }
-
+*/
          /********** 列表 ************/
 
 
