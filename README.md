@@ -8,15 +8,15 @@
       
 预览
 -----
-![首页](https://github.com/FXGSI/imitate_LevonoShop/blob/master/img/localhost_3000_index.html%20(1).png)
+![首页](https://github.com/FXGSI/CloudMusic/blob/master/images/1.PNG)
 
-搜索功能
-![搜索](https://github.com/FXGSI/imitate_LevonoShop/blob/master/img/localhost_3000_products.html_kwords%3D128.png)
-详情页
-![详情页](https://github.com/FXGSI/imitate_LevonoShop/blob/master/img/localhost_3000_product_details.html_lid%3D45.png)
-![详情页](https://github.com/FXGSI/imitate_LevonoShop/blob/master/img/localhost_3000_product_details.html_lid%3D45%20(1).png)
+排行榜
+![排行榜](https://github.com/FXGSI/CloudMusic/blob/master/images/2.PNG)
+歌手
+![歌手](https://github.com/FXGSI/CloudMusic/blob/master/images/3.PNG)
+![详情页](https://github.com/FXGSI/CloudMusic/blob/master/images/4.PNG)
 
-购物车页面
-![购物车](https://github.com/FXGSI/imitate_LevonoShop/blob/master/img/localhost_3000_cart.html%20(1).png)
+播放页
+![播放页](https://github.com/FXGSI/CloudMusic/blob/master/images/5.PNG)
 
 
